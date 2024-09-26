@@ -5,13 +5,10 @@
 
 ## 2. Objetivo
 
-### Objetivos Gerais:
+O objetivo dessa prática é aplicar os conhecimentos aprendidos em sala de aula 
 
 
-### Objetivos Específicos:
-
-
-### Dicionário de Dados:
+## 3. Dicionário de Dados:
 
 
 ## 4. Metodologia
@@ -24,8 +21,7 @@
 
 ## 6. Tecnologias Utilizadas
 
-
-
+Utilização do BRMW para construção da modelagem, MySQL para criação da database e SQL para manipulação dos dados.
 
 ## Autores:
 - 

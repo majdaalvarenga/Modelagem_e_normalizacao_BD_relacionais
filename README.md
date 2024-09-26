@@ -18,19 +18,11 @@
 
 
 
-## 5. Perguntas de Pesquisa
+## 5. Resultados
 
 
 
-## 6. Resultados
-
-
-
-## 7. Conclusão
-
-
-
-## 8. Tecnologias Utilizadas
+## 6. Tecnologias Utilizadas
 
 
 

@@ -105,7 +105,7 @@ create table aluno (
 select * from turma;
 select * from aluno;
 
--- 	QUESTÃO 07
+-- QUESTÃO 07
 
 insert into turma (id_turma, código_turma, nome_turma)
 values (1, '1175', 'Data Science'), (2,'1247','Empregabilidade');

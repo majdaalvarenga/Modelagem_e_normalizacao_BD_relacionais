@@ -1,30 +1,29 @@
 # Modelagem e normalizacao de Banco de Dados relacionais
 
 ## Descrição:
-O código SQL é composto por diversas consultas e instruções de criação de tabelas que gerenciam dados de produtos, categorias, e a alocação de alunos em turmas. Ele também realiza operações de inserção e consultas sobre os dados, buscando informações como a média de preços e categorias associadas a produtos.
+Este projeto aborda a modelagem e normalização de um banco de dados relacional para um sistema financeiro, onde o objetivo é mapear clientes e os produtos financeiros que eles contrataram. Além disso, são feitas consultas SQL sobre um banco de dados de exemplo de e-commerce, com foco em demonstração de boas práticas de SQL (DQL) e operações de inserção, atualização e remoção de dados (DDL/DML).
 
 ## Objetivo:
-O objetivo do código é criar e manipular, em um primeiro momento, um banco de dados que contém informações sobre produtos, suas categorias, e, em seguida, a alocação de alunos em turmas. Além disso, são realizadas consultas para obter informações filtradas e agrupadas, como a média de preços e a relação entre produtos e suas categorias.
+O objetivo do projeto é modelar o banco de dados para melhor atender às necessidades de análise de dados, normalizando as tabelas para otimizar o armazenamento e garantir a consistência dos dados. Além disso, é demonstrado o uso de consultas SQL para extração de informações, bem como a execução de operações DDL e DML para gerenciar dados de maneira eficaz.
 
 ## Dicionário de Dados:
-Tabela produtos: Contém informações de produtos com os campos id, nome, e preco.
-Tabela categorias: Define as categorias dos produtos com os campos id e nome.
-Tabela produtos_categorias: Relaciona produtos e categorias pelos IDs dos produtos e categorias.
-Tabela turma: Armazena informações de turmas com os campos id_turma, código_turma, e nome_turma.
-Tabela aluno: Armazena dados de alunos com os campos id_aluno, nome_aluno, aluno_alocado, e id_turma.
+
 
 ## Metodologia:
-Criação de Tabelas: São criadas tabelas para produtos, categorias, e uma relação entre elas, além de turmas e alunos.
-Inserção de Dados: São inseridos dados nas tabelas produtos, categorias, produtos_categorias, turma, e aluno.
-Consultas SQL: Diversas consultas são realizadas para extrair informações, como produtos com preço acima da média, agrupamento por categorias, e a relação entre produtos e categorias.
+1. Modelo Conceitual:
+Foi inicialmente construído um modelo de banco de dados com duas entidades principais: Cliente e Produto, sem normalização. A relação entre elas é de muitos-para-muitos (um cliente pode contratar vários produtos e um produto pode ser associado a vários clientes).
 
-## Resultados:
-Consultas de produtos e categorias: Produtos são listados com base em seu preço e categorias associadas.
-Média de preços: A média de preços dos produtos é calculada e agrupada por nome e categoria.
-Alocação de alunos em turmas: O código insere dados sobre alunos e suas turmas, com consultas que retornam todas as turmas e alunos.
-Tecnologias Utilizadas:
-SQL: A linguagem utilizada para criação de tabelas, inserção de dados, e realização de consultas no banco de dados.
-Banco de Dados Relacional: O código pressupõe o uso de um banco de dados relacional para lidar com as chaves estrangeiras e referências entre tabelas (ex: MySQL ou PostgreSQL).
+2. Modelo Lógico:
+Aplicando as regras de normalização (até a terceira forma normal), a tabela de Cliente foi dividida em Cliente e Tipo de Cliente, enquanto a tabela de Produto foi dividida em Produto, Tipo de Produto, e Diretor Responsável. Além disso, uma tabela intermediária foi criada para armazenar a relação entre clientes e produtos.
+
+3. Consultas SQL (DQL):
+Foram realizadas consultas para listar produtos com preço acima de 100 reais, produtos com preço acima da média, e o preço médio por categoria de produto, utilizando SQL.
+
+4. Operações DDL e DML:
+Foi criado um banco de dados para armazenar informações sobre alunos e turmas. As operações de inserção, atualização e remoção de dados foram demonstradas utilizando os comandos DML, como INSERT, UPDATE e DELETE.
+
+
+
 
 ## Autores:
 - 

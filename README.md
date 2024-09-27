@@ -1,10 +1,10 @@
 # Modelagem e normalizacao de Banco de Dados relacionais
 
 ## Descrição:
-Este projeto aborda a modelagem e normalização de um banco de dados relacional para um sistema financeiro, onde o objetivo é mapear clientes e os produtos financeiros que eles contrataram. Além disso, são feitas consultas SQL sobre um banco de dados de exemplo de e-commerce, com foco em demonstração de boas práticas de SQL (DQL) e operações de inserção, atualização e remoção de dados (DDL/DML).
+Este projeto aborda a modelagem e normalização de um banco de dados relacional. Além disso, são feitas consultas SQL sobre um banco de dados, com foco em demonstração de boas práticas de SQL (DQL) e operações de inserção e atualização de dados (DML).
 
 ## Objetivo:
-O objetivo do projeto é modelar o banco de dados para melhor atender às necessidades de análise de dados, normalizando as tabelas para otimizar o armazenamento e garantir a consistência dos dados. Além disso, é demonstrado o uso de consultas SQL para extração de informações, bem como a execução de operações DDL e DML para gerenciar dados de maneira eficaz.
+O objetivo do projeto é modelar o banco de dados para melhor atender às necessidades de análise de dados, normalizando as tabelas para otimizar o armazenamento e garantir a consistência dos dados. Além disso, é demonstrado o uso de consultas SQL para extração de informações, bem como a execução de operações DML para gerenciar dados de maneira eficaz.
 
 ## Dicionário de Dados:
 

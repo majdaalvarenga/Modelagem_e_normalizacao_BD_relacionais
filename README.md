@@ -4,7 +4,7 @@
 O código SQL é composto por diversas consultas e instruções de criação de tabelas que gerenciam dados de produtos, categorias, e a alocação de alunos em turmas. Ele também realiza operações de inserção e consultas sobre os dados, buscando informações como a média de preços e categorias associadas a produtos.
 
 ## Objetivo:
-O objetivo do código é criar e manipular um banco de dados que contém informações sobre produtos, suas categorias, e a alocação de alunos em turmas. Além disso, são realizadas consultas para obter informações filtradas e agrupadas, como a média de preços e a relação entre produtos e suas categorias.
+O objetivo do código é criar e manipular, em um primeiro momento, um banco de dados que contém informações sobre produtos, suas categorias, e, em seguida, a alocação de alunos em turmas. Além disso, são realizadas consultas para obter informações filtradas e agrupadas, como a média de preços e a relação entre produtos e suas categorias.
 
 ## Dicionário de Dados:
 Tabela produtos: Contém informações de produtos com os campos id, nome, e preco.

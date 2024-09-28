@@ -61,7 +61,7 @@ Produto (1) --- é contratado por --- (N) Cliente
 Foram realizadas consultas para listar produtos com preço acima de 100 reais, produtos com preço acima da média, e o preço médio por categoria de produto, utilizando SQL. Resolução em anexo (projeto - analise_banco_de_dados.sql)
 
 ## Questões 06 e 07: Operações DML:
-Foi criado um banco de dados para armazenar informações sobre alunos e turmas. As operações de inserção, atualização e remoção de dados foram demonstradas utilizando os comandos DML, como INSERT e UPDATE. Resolução em anexo (projeto - analise_banco_de_dados.sql)
+Foi criado um banco de dados para armazenar informações sobre alunos e turmas. As operações de inserção e atualização de dados foram demonstradas utilizando os comandos DML, como INSERT e UPDATE. Resolução em anexo (projeto - analise_banco_de_dados.sql)
 
 ## Autores:
 - **Felipe Sousa**  

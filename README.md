@@ -64,11 +64,11 @@ Foram realizadas consultas para listar produtos com preço acima de 100 reais, p
 Foi criado um banco de dados para armazenar informações sobre alunos e turmas. As operações de inserção e atualização de dados foram demonstradas utilizando os comandos DML, como INSERT e UPDATE. Resolução em anexo (projeto - analise_banco_de_dados.sql)
 
 ## Autores:
-- **Felipe Sousa**  
+- **Filipe Sousa**  
   [GitHub](https://github.com/filsousa) | [LinkedIn](https://www.linkedin.com/in/filipel-sousa/)
 
 - **Gabriela Almeida**  
-  [GitHub](https://github.com/) | [LinkedIn](https://www.linkedin.com/in/gabriela-rodrigues-almeida/) 
+  [GitHub](https://github.com/GabyAlm) | [LinkedIn](https://www.linkedin.com/in/gabriela-rodrigues-almeida/) 
 
 - **Larissa Oliveira**  
   [GitHub](https://github.com/Larita404) | [LinkedIn](https://www.linkedin.com/in/larissatoscano/)

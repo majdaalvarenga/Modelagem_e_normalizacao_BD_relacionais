@@ -67,7 +67,7 @@ Foi criado um banco de dados para armazenar informações sobre alunos e turmas.
 - **Felipe Sousa**  
   [GitHub](https://github.com/filsousa) | [LinkedIn](https://www.linkedin.com/in/filipel-sousa/)
 
-- **Gabryela Almeida**  
+- **Gabriela Almeida**  
   [GitHub](https://github.com/) | [LinkedIn](https://www.linkedin.com/in/gabriela-rodrigues-almeida/) 
 
 - **Larissa Oliveira**  

@@ -1,5 +1,3 @@
-# QUESTÃO 03
-
 CREATE TABLE produtos (
 id INT PRIMARY KEY AUTO_INCREMENT,
 nome VARCHAR(100) NOT NULL,
@@ -43,12 +41,10 @@ INSERT INTO produtos (nome, preco) VALUES
 ('Fone de Ouvido', 75.90),
 ('Caneta Stylus', 99.99);
 
-select * from produtos;
-select * from categorias;
-select * from produtos_categorias;
+-- QUESTÃO 03
 
 select
-	nome as Produto,
+    nome as Produto,
     preco as Valor
 from produtos
 where preco > 100
@@ -62,20 +58,13 @@ select
 from produtos
 where preco > (select avg(preco) from produtos);
 
-SELECT 
-	nome, 
-    AVG(preco) AS preco_medio
-FROM produtos
-GROUP BY nome;
-
 -- QUESTÃO 05
 
-SELECT
-	*
-FROM categorias c
-inner join produtos_categorias pc on c.id = pc.categoria_id
-inner join produtos p on pc.produto_id = p.id;
-
+-- Primeiro JOIN realizado (teste):
+-- SELECT	*
+-- FROM categorias c
+-- inner join produtos_categorias pc on c.id = pc.categoria_id
+-- inner join produtos p on pc.produto_id = p.id;
 
 SELECT
 	c.nome as 'Nome Categoria',
